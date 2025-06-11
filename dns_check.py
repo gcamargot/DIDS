@@ -7,10 +7,12 @@ import dns.resolver
 import logging
 
 # Constants
-TENANTS_FILE = "config/tenants.json"
-PREVIOUS_RECORDS_FILE = "data/previous_records.json"
-LOGS_DIR = "logs"
+BASE_DIR = Path(__file__).resolve().parent
+TENANTS_FILE = BASE_DIR / "config" / "tenants.json"
+PREVIOUS_RECORDS_FILE = BASE_DIR/ "data"/"previous_records.json"
+LOGS_DIR = BASE_DIR / "logs"
 RECORD_TYPES = ["A", "MX", "NS"]
+
 
 # Load tenants
 def load_tenants(filepath):

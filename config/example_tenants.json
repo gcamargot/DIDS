@@ -2,12 +2,13 @@
   {
     "name": "OmniAccess",
     "main_domain": "omniaccess.com",
+    "intake_key": "XXXXXXXXXXXXXXXXXX",
     "dtch": [
-      "omnlaccess.com"
+	    "omnlaccess.com"
     ],
     "dtch_generated": [
-      "omnlaccess.net",
-      "omn\u00ecaccess.com"
+	    "omnlaccess.net",
+	    "omn\u00ecaccess.com"
     ]
   }
 ]

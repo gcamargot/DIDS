@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "publish-format"
+version = "0.0.0"
+description = ""
+authors = []
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+typer = "^0.11.1"
+rich = "^13.7.1"
+structlog = "^24.1.0"
+pyyaml = "^6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
