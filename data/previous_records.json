@@ -1,0 +1,40 @@
+{
+  "OmniAccess": {
+    "omnlaccess.com": {
+      "A": [],
+      "MX": [
+        "10 mx0101.titan.email.",
+        "20 mx0102.titan.email."
+      ],
+      "NS": [
+        "irdns.earth.orderbox-dns.com.",
+        "irdns.mars.orderbox-dns.com.",
+        "irdns.mercury.orderbox-dns.com.",
+        "irdns.venus.orderbox-dns.com."
+      ]
+    },
+    "omn\u00ecaccess.com": {
+      "A": [],
+      "MX": [],
+      "NS": []
+    },
+    "omnlaccess.net": {
+      "A": [],
+      "MX": [],
+      "NS": []
+    },
+    "omniaccess.com": {
+      "A": [
+        "77.70.254.20"
+      ],
+      "MX": [
+        "10 omniaccess-com.mail.protection.outlook.com."
+      ],
+      "NS": [
+        "ns1.omniaccess.com.",
+        "ns2.omniaccess.com.",
+        "ns3.omniaccess.com."
+      ]
+    }
+  }
+}
