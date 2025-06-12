@@ -14,7 +14,10 @@ def run_dnstwist(domain):
             check=True
         )
         data = json.loads(result.stdout)
-        registered = [entry["domain-name"] for entry in data if entry.get("dns-a") or entry.get("dns-ns") or entry.get("dns-mx")]
+        registered = [
+                entry["domain"].lower()
+                for entry in data 
+                if entry.get("dns_a") or entry.get("dns_ns") or entry.get("dns_mx")]
         return registered
     except subprocess.CalledProcessError as e:
         print(f"Error running dnstwist for {domain}: {e}")
